@@ -1,4 +1,5 @@
 source $HOME/.config/nvim/quick_ui/menubar.vim
+source $HOME/.config/nvim/quick_ui/menulist.vim
 
 "Altera o tema
 let g:quickui_color_scheme = 'papercol light'
