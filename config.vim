@@ -14,6 +14,7 @@ set completeopt=noinsert,menu,preview,longest
 set confirm
 " Coloração de Sintaxe
 syntax on
+set mouse=a
 
 " Fold
 set omnifunc=syntaxcomplete#Complete

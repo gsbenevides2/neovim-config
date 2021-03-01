@@ -18,8 +18,8 @@ endfunction
 
 "Abrir terminal shell
 function! OpenShell()
- let opts = {'w':60, 'h':10, 'title':'Shell ZSH'}
- call quickui#terminal#open('zsh', opts)
+ let opts = {'w':60, 'h':10, 'title':'Shell Bash'}
+ call quickui#terminal#open('bash', opts)
 endfunction
 "Abrir terminal Node JS
 function! OpenNode()

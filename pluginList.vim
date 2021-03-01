@@ -4,6 +4,9 @@ Plug 'preservim/nerdtree'
 Plug 'skywind3000/vim-quickui'
 Plug 'vim-airline/vim-airline'
 
+Plug 'jiangmiao/auto-pairs'
+Plug 'terroo/vim-auto-markdown'
+
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
