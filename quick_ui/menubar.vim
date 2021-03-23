@@ -14,7 +14,9 @@ call quickui#menu#install('&File',[
 
 " Adiciona o menu 'Editor'
 call quickui#menu#install('&Editor',[
-	 \ ["&Relative Number\t%{&relativenumber? 'On':'Off'}", 'call ToggleRelativeNumber()'],
+	 \ ["Relative &Number\t%{&relativenumber? 'On':'Off'}", 'call ToggleRelativeNumber()'],
+	 \ ["&Fold Reset", 'call FoldReset()'],
+	 \ ["Find and &Replace", 'call FindAndReplace()'],
 	 \ ["&Wrap\t%{&wrap? 'On':'Off'}", 'call ToggleWrap()'],
 	 \ ])
 
