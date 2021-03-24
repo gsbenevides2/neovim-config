@@ -16,6 +16,7 @@ call quickui#menu#install('&File',[
 call quickui#menu#install('&Editor',[
 	 \ ["Relative &Number\t%{&relativenumber? 'On':'Off'}", 'call ToggleRelativeNumber()'],
 	 \ ["&Fold Reset", 'call FoldReset()'],
+	 \ ["&Seach File", 'call FileSearch()'],
 	 \ ["Find and &Replace", 'call FindAndReplace()'],
 	 \ ["&Wrap\t%{&wrap? 'On':'Off'}", 'call ToggleWrap()'],
 	 \ ])
