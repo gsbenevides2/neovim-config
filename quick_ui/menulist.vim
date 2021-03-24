@@ -7,6 +7,7 @@ let menu_list_contents = [
 	\ ["&Show Documentation\tK", "call CocActionAsync('doHover')"],
 	\ ['-'],
 	\ ["Ren&ame Symbom\trn", 'exec "normal \<Plug>(coc-codeaction)"'],
+	\ ["&Fix Code", 'CocFix'],
   \ ]
 let menu_list_options = {'index':g:quickui#context#cursor}
 nnoremap <silent> m :call quickui#context#open(menu_list_contents, menu_list_options)<CR>
