@@ -7,8 +7,9 @@ function! FileSearch()
  call inputrestore()
  let command = 'grep -iRl "'.text.'" '.folder
  let result = system(command)
+ echo '\n'
  if strlen(result) == 0
-	echo 'Nenhum arquivo encontrado.'
+	echo 'No files found.'
  else
 	let position = 0
 	let items = []
@@ -19,7 +20,7 @@ function! FileSearch()
 	 let items = add(items, line)
 	 let position = position + 1
 	endwhile
-	let options = {'title':'Abrir em uma nova aba'}
+	let options = {'title':'Open in new tab'}
 	call quickui#listbox#open(items, options)
  endif
 endfunc

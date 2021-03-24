@@ -45,4 +45,5 @@ function! FindAndReplace()
   call setline(actualLine, substitute(getline(actualLine), find, replace, 'g'))
   let actualLine = actualLine +1
  endwhile
+ echo '\n Finished'
 endfunc
