@@ -6,6 +6,11 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'terroo/vim-auto-markdown'
+Plug 'antoyo/vim-licenses'
+
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
