@@ -19,6 +19,7 @@ call quickui#menu#install('&Editor',[
 	 \ ["&Seach File", 'call FileSearch()'],
 	 \ ["Find and &Replace", 'call FindAndReplace()'],
 	 \ ["&Wrap\t%{&wrap? 'On':'Off'}", 'call ToggleWrap()'],
+	 \ ["Add &License", 'call ShowLicenses()'],
 	 \ ])
 
 " Adiciona o menu 'Plugins'
