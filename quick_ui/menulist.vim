@@ -8,6 +8,7 @@ let menu_list_contents = [
 	\ ['-'],
 	\ ["Ren&ame Symbom\trn", 'exec "normal \<Plug>(coc-codeaction)"'],
 	\ ["&Fix Code", 'CocFix'],
+	\ ["&HTTP Request", 'CocCommand rest-client.request'],
   \ ]
 let menu_list_options = {'index':g:quickui#context#cursor}
 nnoremap <silent> m :call quickui#context#open(menu_list_contents, menu_list_options)<CR>
