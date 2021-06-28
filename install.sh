@@ -14,6 +14,6 @@ echo 'Installngs plugins'
 nvim --headless +PlugInstall +qa &> /dev/null
 
 echo 'Install coc extensions'
-nvim --headless "+CocInstall -sync coc-html coc-eslint coc-emmet coc-tsserver coc-styled-components coc-json coc-css coc-sh" +qa &> /dev/null
+nvim --headless "+CocInstall -sync coc-html coc-restclient coc-eslint coc-emmet coc-tsserver coc-styled-components coc-json coc-css coc-sh" +qa &> /dev/null
 
 

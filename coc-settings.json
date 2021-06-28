@@ -5,5 +5,8 @@
 	"javascript",
 	"javascriptreact",
 	"typescriptreact"
- ]
+ ],
+ "styled-components.lint": {
+	"unknownProperties":"ignore"
+ }
 }
