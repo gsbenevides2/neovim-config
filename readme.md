@@ -4,6 +4,10 @@
 
 With NeoVim, Git and [Curl](https://github.com/curl/curl) installed, copy and paste the code below into the terminal:
 
+<p align="center">
+  <img width="800" src="https://dl.dropboxusercontent.com/s/lnz0a3umep4quo7/Captura%20de%20Tela%20%2822%29.png?dl=0"/>
+</p>
+
 ```bash
 curl -s https://raw.githubusercontent.com/gsbenevides2/neovim-config/main/install.sh | bash
 ```
