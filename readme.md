@@ -1,33 +1,43 @@
-# NeoVim Config
 
-## Installation
-
-With NeoVim, Git and [Curl](https://github.com/curl/curl) installed, copy and paste the code below into the terminal:
-
+<h1 align="center">Neovim Config</h1>
 <p align="center">
-  <img width="800" src="https://dl.dropboxusercontent.com/s/lnz0a3umep4quo7/Captura%20de%20Tela%20%2822%29.png?dl=0"/>
+<img src="https://img.shields.io/badge/Neovim-f1f1f1?style=for-the-badge&logo=neovim&logoColor=black">
+<img src="https://img.shields.io/badge/Linux-f1f1f1?style=for-the-badge&logo=linux&logoColor=black">
+<img src="https://img.shields.io/badge/Windows-f1f1f1?style=for-the-badge&logo=windows&logoColor=black">
 </p>
+<hr>
+<p align="center">
+  <img width="800" src=".github/screenshot.png"/>
+</p>
+
+## 📥 Instalação
+
+Com o [NeoVim](https://neovim.io/), [Git](https://git-scm.com/) e [Curl](https://github.com/curl/curl) instalados, copie e cole o código abaixo no terminal:
 
 ```bash
 curl -s https://raw.githubusercontent.com/gsbenevides2/neovim-config/main/install.sh | bash
 ```
 
-## What is configured?
+## ⚙️ O que está configurado?
+<p align="justify">
+Vem configurado com <a href="https://github.com/neoclide/coc.nvim">Coc</a> para <a href="https://github.com/neoclide/coc-tsserver">Typescript</a>, <a href="https://github.com/neoclide/coc-eslint">EsLint</a> e <a href="https://github.com/neoclide/coc-json">JSON</a>. Ele também vem com <a href="https://github.com/skywind3000/vim-quickui">QuickUI</a> para fácilitar o uso. Mais outros plugins parecidos, como <a href="https://github.com/dracula/vim">Dracula</a> para facilitar o desenvolvimento. Confira a lista de plugins <a href="https://github.com/gsbenevides2/neovim-config/blob/main/pluginList.vim">aqui</a>, lembrando que eles são instalados automaticamente através do <a href="https://github.com/junegunn/vim-plug">Vim-Plug</a>.
+</p>
 
-Comes configured with [Coc](https://github.com/neoclide/coc.nvim) for [Typescript](https://github.com/neoclide/coc-tsserver), [EsLint](https://github.com/neoclide/coc-eslint) and [JSON](https://github.com/neoclide/coc-json). It also comes with [Quick UI](https://github.com/skywind3000/vim-quickui) for easy use. More other looking plugins like [Dracula](https://github.com/dracula/vim) to facilitate development. Check a list of plugins [here](https://github.com/gsbenevides2/neovim-config/blob/main/pluginList.vim), remembering that they are automatically installed through [Vim-Plug](https://github.com/junegunn/vim-plug).
+## 📝 Contribuições e Licença
+<p align="justify">
+Você pode usar e modificar estas configurações para seu uso pessoal. No entanto, o envio de pull requests para este repositório não é permitido. Mas caso tenha uma sugestão de plugin o configuração que todos deviam saber, fique à vontade para abrir uma issue. Este projeto esta sobre a licença do  <a href="LICENSE">MIT</a>.
+</p>
 
-## Contributions and License
-
-You can use and modify these settings for your personal use. However, sending pull requests to this repository is not allowed. But if you have a plugin suggestion or configuration that everyone should know about, feel free to open an issue. This project is under license from MIT.
-
-## UninstallI
-
-I am sad to hear that you want to uninstall my set of settings for NeoVim. Remember that the issues tab is open for contributions and improvements. To uninstall, run the command below:
+## 🗑 Desinstalar
+<p>
+Fico triste em saber que você deseja desinstalar meu conjunto de configurações do NeoVim. Lembre-se de que a guia de problemas está aberta para contribuições e melhorias. Para desinstalar, execute o comando abaixo:
+</p>
 
 ```bash
 rm ~/.config/nvim ~/config/coc ~/.local/shared/nvim -rf
 ```
 
-> Warning: The above command will reset your NeoVim completely along with any customizations you have made. I recommend backing up if you have done any customization.
+> <p align="justify">Aviso: O comando acima irá redefinir seu NeoVim completamente junto com quaisquer personalizações que você tenha feito. Eu recomendo fazer backup se você fez alguma personalização.</p>
 
-Thanks for your visit. Made with 💕 by Gsbenevides2
+<hr>
+<p align="center">Feito com 🤍 por<a href="https://gui.dev.br"> Gsbenevides2</a></p>
