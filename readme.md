@@ -1,12 +1,9 @@
-
 <h1 align="center">Neovim Config</h1>
 <p align="center">
 <img src="https://img.shields.io/badge/Neovim-f1f1f1?style=for-the-badge&logo=neovim&logoColor=black">
 <img src="https://img.shields.io/badge/Linux-f1f1f1?style=for-the-badge&logo=linux&logoColor=black">
 <img src="https://img.shields.io/badge/Windows-f1f1f1?style=for-the-badge&logo=windows&logoColor=black">
 </p>
-<hr>
-
 <p align="justify">
 Minhas configurações personalizadas do editor de texto via terminal Neovim, do qual possuo muito apreço pois foi minha primeira IDE, da qual utlizei ela bastante na programação em meu celular.
 </p>
