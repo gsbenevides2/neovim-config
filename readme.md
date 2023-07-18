@@ -30,7 +30,7 @@ Você pode usar e modificar estas configurações para seu uso pessoal. No entan
 </p>
 
 ## 🗑 Desinstalar
-<p>
+<p align="justify">
 Fico triste em saber que você deseja desinstalar meu conjunto de configurações do NeoVim. Lembre-se de que a guia de problemas está aberta para contribuições e melhorias. Para desinstalar, execute o comando abaixo:
 </p>
 
