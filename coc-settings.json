@@ -1,12 +1,15 @@
 {
- "eslint.autoFixOnSave": true,
- "coc.preferences.formatOnSaveFiletypes": [
-	"typescript",
-	"javascript",
-	"javascriptreact",
-	"typescriptreact"
- ],
- "styled-components.lint": {
-	"unknownProperties":"ignore"
- }
+  "eslint.autoFixOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "css",
+    "json",
+    "scss"
+  ],
+  "styled-components.lint": {
+    "unknownProperties": "ignore"
+  }
 }

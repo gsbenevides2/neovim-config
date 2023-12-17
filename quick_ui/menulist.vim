@@ -6,8 +6,8 @@ let menu_list_contents = [
 	\ ['-'],
 	\ ["&Show Documentation\tK", "call CocActionAsync('doHover')"],
 	\ ['-'],
-	\ ["Ren&ame Symbom\trn", 'exec "normal \<Plug>(coc-codeaction)"'],
-	\ ["&Fix Code", 'CocFix'],
+	\ ["Ren&ame Symbom\trn", 'exec "normal \<Plug>(coc-rename)"'],
+	\ ["&Fix Code", 'exec "normal \<Plug>(coc-codeaction-cursor)"'],
 	\ ["&HTTP Request", 'CocCommand rest-client.request'],
   \ ]
 let menu_list_options = {'index':g:quickui#context#cursor}

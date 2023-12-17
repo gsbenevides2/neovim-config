@@ -18,13 +18,13 @@ endfunction
 
 "Abrir terminal shell
 function! OpenShell()
- let opts = {'w':60, 'h':10, 'title':'Shell Bash'}
- call quickui#terminal#open('bash', opts)
+ tabnew
+ terminal zsh
 endfunction
 "Abrir terminal Node JS
 function! OpenNode()
- let opts = {'w':60, 'h':10, 'title':'Node JS'}
- call quickui#terminal#open('node', opts)
+ tabnew
+ terminal node
 endfunction
 "Reserta o siatema de fold
 function! FoldReset()

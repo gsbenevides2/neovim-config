@@ -22,3 +22,6 @@ set foldmethod=syntax
 set foldcolumn=1 "defines 1 col at window left, to indicate folding
 let javaScript_fold=1 "activate folding by JS syntax
 set foldlevelstart=99 "start file with all folds opened
+
+" Fold in Scss
+autocmd FileType scss setlocal foldmethod=marker foldmarker={,}
