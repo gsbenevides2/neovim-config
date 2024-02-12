@@ -1,0 +1,9 @@
+Quick UI:
+	Open Top Bar: DOUBLE SPACE 
+  Open Right Menu: Normal Mode + m
+Copilot:
+ Accept the sugestion: CTRL + j
+
+Tab Navigation:
+
+

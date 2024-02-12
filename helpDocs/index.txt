@@ -1,0 +1,5 @@
+Commandos Uteis e de Bom TOM
+
+Abrir AppToolBar: <space><space>
+Dobrar tudo: zM
+Menu de Contexto: m

@@ -10,6 +10,7 @@ call quickui#menu#install('&File',[
 			\ ["Save All\t:wa", 'wa'],
 			\ ["&Close\t:q", 'q'],
 			\ ["Close All\t:qa", 'qa'],
+			\ ["Close &Hidden Buffers", 'call DeleteHiddenBuffers()'],
 			\ ])
 
 " Adiciona o menu 'Editor'
@@ -35,6 +36,11 @@ call quickui#menu#install('&Plugins',[
 call quickui#menu#install('&Terminal',[
 	 \ ["&Shell", 'call OpenShell()'],
 	 \ ["&Node", 'call OpenNode()'],
+	 \ ])
+
+" Adiciona o menu Uteis
+call quickui#menu#install("&Uteis",[
+	 \ ["Lazy&git", 'call LazyGit()']
 	 \ ])
 
 " Adiciona o menu 'About'

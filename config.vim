@@ -25,3 +25,6 @@ set foldlevelstart=99 "start file with all folds opened
 
 " Fold in Scss
 autocmd FileType scss setlocal foldmethod=marker foldmarker={,}
+
+" Replace :W to save
+command W w
